@@ -1,0 +1,13 @@
+# Secrets (copy .env.example → .env locally)
+.env
+
+# Dependencies (npm install)
+node_modules/
+
+# Large local installers / extracted reference binaries
+*.exe
+설치형 프로그램 레퍼런스/extracted_cousting/
+설치형 프로그램 레퍼런스/extracted_autoting/
+
+# Runtime debug artifact (overwritten on every editor run)
+editor-debug.log

@@ -1,0 +1,18 @@
+{
+  "name": "autoclick",
+  "version": "0.1.0",
+  "description": "Local browser login automation shell",
+  "main": "src/main/main.js",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test tests/*.test.js"
+  },
+  "devDependencies": {
+    "electron": "^39.2.6"
+  },
+  "dependencies": {
+    "playwright": "^1.57.0",
+    "pngjs": "^7.0.0"
+  }
+}
